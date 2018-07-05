@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A4E4C120EB4B550003820E /* 11111.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A4E4C020EB4B550003820E /* 11111.mp3 */; };
+		18A4E4C320EB4F2C0003820E /* 22222.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A4E4C220EB4F2C0003820E /* 22222.mp3 */; };
+		18A4E4C520EB55E60003820E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A4E4C420EB55E60003820E /* HomeViewController.swift */; };
+		18F73EFA20E9F357005040C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F73EF920E9F357005040C8 /* AppDelegate.swift */; };
+		18F73EFC20E9F357005040C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F73EFB20E9F357005040C8 /* ViewController.swift */; };
+		18F73EFF20E9F357005040C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F73EFD20E9F357005040C8 /* Main.storyboard */; };
+		18F73F0120E9F359005040C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F73F0020E9F359005040C8 /* Assets.xcassets */; };
+		18F73F0420E9F359005040C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F73F0220E9F359005040C8 /* LaunchScreen.storyboard */; };
+		18F73F0F20E9F359005040C8 /* Tap_WarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F73F0E20E9F359005040C8 /* Tap_WarTests.swift */; };
+		18F73F1A20E9F359005040C8 /* Tap_WarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F73F1920E9F359005040C8 /* Tap_WarUITests.swift */; };
+		18F73F2A20E9FF26005040C8 /* VictoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F73F2920E9FF26005040C8 /* VictoryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F73F0B20E9F359005040C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F73EEE20E9F357005040C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F73EF520E9F357005040C8;
+			remoteInfo = "Tap War";
+		};
+		18F73F1620E9F359005040C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F73EEE20E9F357005040C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F73EF520E9F357005040C8;
+			remoteInfo = "Tap War";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A4E4C020EB4B550003820E /* 11111.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 11111.mp3; sourceTree = "<group>"; };
+		18A4E4C220EB4F2C0003820E /* 22222.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 22222.mp3; sourceTree = "<group>"; };
+		18A4E4C420EB55E60003820E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18F73EF620E9F357005040C8 /* Tap War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F73EF920E9F357005040C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F73EFB20E9F357005040C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F73EFE20E9F357005040C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F73F0020E9F359005040C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F73F0320E9F359005040C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F73F0520E9F359005040C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F73F0A20E9F359005040C8 /* Tap WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap WarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F73F0E20E9F359005040C8 /* Tap_WarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_WarTests.swift; sourceTree = "<group>"; };
+		18F73F1020E9F359005040C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F73F1520E9F359005040C8 /* Tap WarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap WarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F73F1920E9F359005040C8 /* Tap_WarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_WarUITests.swift; sourceTree = "<group>"; };
+		18F73F1B20E9F359005040C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F73F2920E9FF26005040C8 /* VictoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F73EF320E9F357005040C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F73F0720E9F359005040C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F73F1220E9F359005040C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F73EED20E9F357005040C8 = {
+			isa = PBXGroup;
+			children = (
+				18F73EF820E9F357005040C8 /* Tap War */,
+				18F73F0D20E9F359005040C8 /* Tap WarTests */,
+				18F73F1820E9F359005040C8 /* Tap WarUITests */,
+				18F73EF720E9F357005040C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F73EF720E9F357005040C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F73EF620E9F357005040C8 /* Tap War.app */,
+				18F73F0A20E9F359005040C8 /* Tap WarTests.xctest */,
+				18F73F1520E9F359005040C8 /* Tap WarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F73EF820E9F357005040C8 /* Tap War */ = {
+			isa = PBXGroup;
+			children = (
+				18F73EF920E9F357005040C8 /* AppDelegate.swift */,
+				18F73EFB20E9F357005040C8 /* ViewController.swift */,
+				18F73EFD20E9F357005040C8 /* Main.storyboard */,
+				18F73F0020E9F359005040C8 /* Assets.xcassets */,
+				18F73F0220E9F359005040C8 /* LaunchScreen.storyboard */,
+				18F73F0520E9F359005040C8 /* Info.plist */,
+				18F73F2920E9FF26005040C8 /* VictoryViewController.swift */,
+				18A4E4C020EB4B550003820E /* 11111.mp3 */,
+				18A4E4C220EB4F2C0003820E /* 22222.mp3 */,
+				18A4E4C420EB55E60003820E /* HomeViewController.swift */,
+			);
+			path = "Tap War";
+			sourceTree = "<group>";
+		};
+		18F73F0D20E9F359005040C8 /* Tap WarTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F73F0E20E9F359005040C8 /* Tap_WarTests.swift */,
+				18F73F1020E9F359005040C8 /* Info.plist */,
+			);
+			path = "Tap WarTests";
+			sourceTree = "<group>";
+		};
+		18F73F1820E9F359005040C8 /* Tap WarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F73F1920E9F359005040C8 /* Tap_WarUITests.swift */,
+				18F73F1B20E9F359005040C8 /* Info.plist */,
+			);
+			path = "Tap WarUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F73EF520E9F357005040C8 /* Tap War */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F73F1E20E9F359005040C8 /* Build configuration list for PBXNativeTarget "Tap War" */;
+			buildPhases = (
+				18F73EF220E9F357005040C8 /* Sources */,
+				18F73EF320E9F357005040C8 /* Frameworks */,
+				18F73EF420E9F357005040C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap War";
+			productName = "Tap War";
+			productReference = 18F73EF620E9F357005040C8 /* Tap War.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F73F0920E9F359005040C8 /* Tap WarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F73F2120E9F359005040C8 /* Build configuration list for PBXNativeTarget "Tap WarTests" */;
+			buildPhases = (
+				18F73F0620E9F359005040C8 /* Sources */,
+				18F73F0720E9F359005040C8 /* Frameworks */,
+				18F73F0820E9F359005040C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F73F0C20E9F359005040C8 /* PBXTargetDependency */,
+			);
+			name = "Tap WarTests";
+			productName = "Tap WarTests";
+			productReference = 18F73F0A20E9F359005040C8 /* Tap WarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F73F1420E9F359005040C8 /* Tap WarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F73F2420E9F359005040C8 /* Build configuration list for PBXNativeTarget "Tap WarUITests" */;
+			buildPhases = (
+				18F73F1120E9F359005040C8 /* Sources */,
+				18F73F1220E9F359005040C8 /* Frameworks */,
+				18F73F1320E9F359005040C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F73F1720E9F359005040C8 /* PBXTargetDependency */,
+			);
+			name = "Tap WarUITests";
+			productName = "Tap WarUITests";
+			productReference = 18F73F1520E9F359005040C8 /* Tap WarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F73EEE20E9F357005040C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ANNIE;
+				TargetAttributes = {
+					18F73EF520E9F357005040C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					18F73F0920E9F359005040C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18F73EF520E9F357005040C8;
+					};
+					18F73F1420E9F359005040C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18F73EF520E9F357005040C8;
+					};
+				};
+			};
+			buildConfigurationList = 18F73EF120E9F357005040C8 /* Build configuration list for PBXProject "Tap War" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F73EED20E9F357005040C8;
+			productRefGroup = 18F73EF720E9F357005040C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F73EF520E9F357005040C8 /* Tap War */,
+				18F73F0920E9F359005040C8 /* Tap WarTests */,
+				18F73F1420E9F359005040C8 /* Tap WarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F73EF420E9F357005040C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A4E4C320EB4F2C0003820E /* 22222.mp3 in Resources */,
+				18A4E4C120EB4B550003820E /* 11111.mp3 in Resources */,
+				18F73F0420E9F359005040C8 /* LaunchScreen.storyboard in Resources */,
+				18F73F0120E9F359005040C8 /* Assets.xcassets in Resources */,
+				18F73EFF20E9F357005040C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F73F0820E9F359005040C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F73F1320E9F359005040C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F73EF220E9F357005040C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F73EFC20E9F357005040C8 /* ViewController.swift in Sources */,
+				18F73F2A20E9FF26005040C8 /* VictoryViewController.swift in Sources */,
+				18F73EFA20E9F357005040C8 /* AppDelegate.swift in Sources */,
+				18A4E4C520EB55E60003820E /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F73F0620E9F359005040C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F73F0F20E9F359005040C8 /* Tap_WarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F73F1120E9F359005040C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F73F1A20E9F359005040C8 /* Tap_WarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F73F0C20E9F359005040C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F73EF520E9F357005040C8 /* Tap War */;
+			targetProxy = 18F73F0B20E9F359005040C8 /* PBXContainerItemProxy */;
+		};
+		18F73F1720E9F359005040C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F73EF520E9F357005040C8 /* Tap War */;
+			targetProxy = 18F73F1620E9F359005040C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F73EFD20E9F357005040C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F73EFE20E9F357005040C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F73F0220E9F359005040C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F73F0320E9F359005040C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F73F1C20E9F359005040C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F73F1D20E9F359005040C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F73F1F20E9F359005040C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U83NA3FTT;
+				INFOPLIST_FILE = "Tap War/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BLABlabla.Tap-War";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F73F2020E9F359005040C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7U83NA3FTT;
+				INFOPLIST_FILE = "Tap War/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BLABlabla.Tap-War";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18F73F2220E9F359005040C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BLABlabla.Tap-WarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap War.app/Tap War";
+			};
+			name = Debug;
+		};
+		18F73F2320E9F359005040C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap WarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BLABlabla.Tap-WarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap War.app/Tap War";
+			};
+			name = Release;
+		};
+		18F73F2520E9F359005040C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap WarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BLABlabla.Tap-WarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tap War";
+			};
+			name = Debug;
+		};
+		18F73F2620E9F359005040C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap WarUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BLABlabla.Tap-WarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tap War";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F73EF120E9F357005040C8 /* Build configuration list for PBXProject "Tap War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F73F1C20E9F359005040C8 /* Debug */,
+				18F73F1D20E9F359005040C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F73F1E20E9F359005040C8 /* Build configuration list for PBXNativeTarget "Tap War" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F73F1F20E9F359005040C8 /* Debug */,
+				18F73F2020E9F359005040C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F73F2120E9F359005040C8 /* Build configuration list for PBXNativeTarget "Tap WarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F73F2220E9F359005040C8 /* Debug */,
+				18F73F2320E9F359005040C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F73F2420E9F359005040C8 /* Build configuration list for PBXNativeTarget "Tap WarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F73F2520E9F359005040C8 /* Debug */,
+				18F73F2620E9F359005040C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F73EEE20E9F357005040C8 /* Project object */;
+}
